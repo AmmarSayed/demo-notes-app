@@ -9,7 +9,7 @@ export const main = handler(async (event) => {
     // - 'noteId': path parameter
     Key: {
       userId: event.requestContext.authorizer.iam.cognitoIdentity.identityId,
-      // noteId: event.pathParameters.id
+      noteId: event.pathParameters.id,
     },
   };
 
