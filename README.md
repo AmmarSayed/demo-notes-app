@@ -41,6 +41,7 @@ The following set of technologies and services were used build the serverless ap
 <img src="./completed-app-mobile.png" width="400px">
 
 <hr>
+
 ## This app was built following the guide provided by SST.dev
 
 ### [link to the guide](https://sst.dev/chapters/who-is-this-guide-for.html)
