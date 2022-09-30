@@ -1,5 +1,7 @@
 const config = {
   // Backend config
+  MAX_ATTACHMENT_SIZE: 5000000,
+
   s3: {
     REGION: process.env.REACT_APP_REGION,
     BUCKET: process.env.REACT_APP_BUCKET,
@@ -13,6 +15,8 @@ const config = {
     USER_POOL_ID: process.env.REACT_APP_USER_POOL_ID,
     APP_CLIENT_ID: process.env.REACT_APP_USER_POOL_CLIENT_ID,
     IDENTITY_POOL_ID: process.env.REACT_APP_IDENTITY_POOL_ID,
+    STRIPE_KEY:
+      "pk_test_51LnSIJAxEyc5skpLKpxBzMnPPtFHTTMA4suelZ4mlD3lCJVAbFmMaIlXQ0E9yqqN45ENUcxUjiYnmjFWhHIotLGx00pr4vKnsW",
   },
 };
 
